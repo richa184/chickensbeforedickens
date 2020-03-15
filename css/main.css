@@ -90,15 +90,15 @@ h2 {
 
 
 #about {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('./images/about_me.jpg');
 }
 
 #recipe {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/cooking.png');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('./images/cooking.png');
 }
 
 #timer {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/timer.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('./images/timer.jpg');
 }
 
 
