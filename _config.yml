@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Chickens Before Dickens!.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.chickensbeforedickens.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: @chickensbeforedickens
+instagram_username: "@chickensbeforedickens"
 
 
 # Build settings
