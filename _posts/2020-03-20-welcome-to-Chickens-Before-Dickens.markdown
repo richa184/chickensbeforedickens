@@ -5,4 +5,4 @@ date:   2020-03-20 22:09:30 +0000
 author: TJ
 categories: jekyll update
 ---
-Hello loyal Chans alike! 
+Hello loyal Chans and new Chans alike! 
