@@ -48,6 +48,12 @@ a {
 	margin-right = auto;
 }
 
+p { 
+	font-size: 20px;
+	font-color: black;
+	
+}
+
 li a:hover {
 	background-color: #C5C6C7;
 }
