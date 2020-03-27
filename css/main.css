@@ -4,6 +4,43 @@ body {
 	font-family: monospace;
 }
 
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+.masthead-heading {
+    /* Layout Declarations */
+    color: grey;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.about-me {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.about-me > p{
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
 html {
 	scroll-behavior: smooth;
 }
@@ -89,18 +126,13 @@ h2 {
 }
 
 
-#about {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
+.masthead {
+  padding: 6em 0;
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #45A29E;
 }
-
-#recipe {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/cooking.png');
-}
-
-#timer {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/timer.jpg');
-}
-
 
 foot {
 	text-align: left;
