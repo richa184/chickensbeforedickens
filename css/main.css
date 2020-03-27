@@ -119,3 +119,21 @@ foot {
 	text-align: left;
 	padding: 100px;
 }
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: pink;
+  color: white;
+}
