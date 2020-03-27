@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
+  
 <head>
   <meta charset="utf-8">
-<h1>{{ page.title }}</h1>
-  <head>
-    <body>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
-{{ content }}
-</body>
+  <h1>{{ page.title }}</h1>
+</head>
+    
+    
+  <body>
+    
+    <header>{{ page.title }}</header>
+    
+    <main>
+      <section>
+        <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+        {{ content }}
+      </section>
+    </main>
+    
+  </body>
 </html>
