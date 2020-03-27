@@ -54,6 +54,10 @@ p {
 	
 }
 
+ul {
+	list-style-type: none;
+}
+
 li a:hover {
 	background-color: #C5C6C7;
 }
