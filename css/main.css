@@ -84,7 +84,7 @@ h2 {
 
 
 #about {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.JPG');
 }
 
 #chicken {
@@ -92,11 +92,11 @@ h2 {
 }
 
 #movies {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/timer.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/movies.JPG');
 }
 
 #music {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/timer.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/music.jpg');
 }
 
 foot {
