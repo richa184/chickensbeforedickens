@@ -71,7 +71,8 @@ section {
 	align-items: center;
 	text-align: center;
 	font-size: 70px;
-	background-color: MintCream;
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
+}
 	
 	background-size: cover; 
     background-position: center center; 
@@ -92,9 +93,6 @@ h2 {
 }
 
 
-#about {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
-}
 
 
 foot {
