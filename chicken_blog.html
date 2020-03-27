@@ -2,8 +2,9 @@
 layout: default
 title: Chicken
 ---
-<h1>Latest Posts</h1>
 
+<header>Latest Posts</header>
+<section>
 <ul>
   {% for post in site.posts %}
   {% if post.categories contains "chicken" %}
@@ -14,3 +15,4 @@ title: Chicken
   {% endif %}
   {% endfor %}
 </ul>
+</section>
