@@ -44,8 +44,8 @@ a {
 	display: block;
 	color: #66FCF1;
 	padding: 0 10px;
-	text-align: center;
-	text-decoration: none;
+	margin-left = auto;
+	margin-right = auto;
 }
 
 li a:hover {
@@ -105,7 +105,7 @@ h2 {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/games.jpg');
 }
 
-.scroll1{
+.scroll{
 	margin: auto;
 }
 
