@@ -99,6 +99,13 @@ h2 {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/music.jpg');
 }
 
+
+.scroll1{
+	position: relative;
+	top: 80px;
+	right: 150px;
+}
+
 foot {
 	text-align: left;
 	padding: 100px;
