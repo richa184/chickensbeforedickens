@@ -101,6 +101,9 @@ h2 {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/music.jpg');
 }
 
+#games {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/games.jpg');
+}
 
 .scroll1{
 	position: relative;
