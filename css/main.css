@@ -1,10 +1,11 @@
 body {
-	margin: 0;
-	margin-top: 0;
-	font-family: monospace;
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.content-footer,
+
 .masthead-heading,
 .masthead-intro {
   text-align: center;
@@ -127,9 +128,7 @@ h2 {
 
 
 .masthead {
-  padding: 6em 0;
   background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
   border-top: solid 1em #45A29E;
 }
@@ -139,28 +138,6 @@ foot {
 	padding: 100px;
 }
 
-#clockdiv{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
-}
-
-#clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #00BF96;
-    display: inline-block;
-}
-
-#clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #00816A;
-    display: inline-block;
-}
 
 .smalltext{
     padding-top: 5px;
