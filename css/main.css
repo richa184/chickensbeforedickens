@@ -93,14 +93,17 @@ h2 {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
 }
 
-#recipe {
+#chicken {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/cooking.png');
 }
 
-#timer {
+#movies {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/timer.jpg');
 }
 
+#music {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/timer.jpg');
+}
 
 foot {
 	text-align: left;
