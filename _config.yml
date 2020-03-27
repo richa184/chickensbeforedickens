@@ -20,9 +20,9 @@
 
 title: Chickens Before Dickens
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Chickens Before Dickens!.
+  Welcome to Chickens Before Dickens!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.chickensbeforedickens.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://github.com/richa184/richa184.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: "chickensbeforedickens"
 
 
