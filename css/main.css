@@ -1,73 +1,136 @@
-<!DOCTYPE html>
-<html>
+body {
+	margin: 0;
+	margin-top: 0;
+	font-family: monospace;
+}
 
-<head> 
-	<meta charset="UTF-8">
-	<title> Chickens Before Dickens </title>
-	<link rel="stylesheet" href="css/main.css">
-</head>
+html {
+	scroll-behavior: smooth;
+}
 
-<body> 
-	<header>
-		<nav>
-			<ul>			
-				<li><a href = "#about"><img src = "images/profile.jpg"></a></li>
-				<li><a href = "#recipe">Chicken!</a></li>
-				<li><a href = "#timer">Chicken Timer</a></li>
-				<li><a class="active" href="#instagram">Check Out My Instagram</a></li>
-			</ul>
-		</nav>	
-	</header>
+
+header {
+	display: flex;
+	position:sticky;
+	top: 0;
+	left:0;
+	right: 0;
+	height: 80px;
+	line-height: 80px;
+	background-color: #1F2833;
+}
+
+header * {
+	display: inline;
+	height: 80px;
+}
+
+header ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: 1F2833;
+	position: sticky;
+}
+
+
+header li  {
+	display:inline;
+	float:left;
+	background-color: #1F2833;
+}
+
+a {
+	display: block;
+	color: #66FCF1;
+	padding: 0 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #C5C6C7;
+}
+
+.active {
+	background-color: #45A29E;
+	float: right;
+}
+
+.scroll1 {
+	position: relative;
+	top: 80px;
+	right: 125px;
+}
+
+section {
+	height: 100vh;
+	border: 1px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 70px;
+	background-color: MintCream;
 	
-	
-	<main>	
+	background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
 
-		<section id = "about">
-			<div class = "personal">
-				<h2> About Me </h2>
-			</div>
-			<a href="links/about_me.html">
-				<img class="scroll1" src = "images/chicken_scroll.png" width = 90px>
-			</a>
-		</section>
-		
-		<section id = "recipe">
-			<div class = "cooking">
-				<h2> Chicken Recipe!!! </h2>
-				<a href="links/recipe.html">
-					<img class = "scroll" src = "images/chicken_scroll.png" width = 90px>
-				</a>
-			</div>
-		</section>
-		
-		<section id = "timer">
-			<div class = "timer">
-				<h2> The CHANtastic Chicken Timer </h2>
-				<a href="links/timer.html">
-					<img class = "scroll" src = "images/chicken_scroll.png" width = 50px>
-				</a>
-			</div>
-		</section>
-		
-		
-		<div  id = "instagram" class='embedsocial-instagram' data-ref="0c6aa9675274d3afc98e1c1b9162eeed4632b15d"></div>
-		<script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
-		
-		
-	</main>
-	
-	
-	
-	<footer>
-	
-	</footer>
-	
-</body>
+h1 {
+	color: grey;
+	font-size: 40px;
+}
+h2 {
+	color: grey;
+	font-size: 30px;
+}
 
 
+#about {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.jpg');
+}
+
+#recipe {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/cooking.png');
+}
+
+#timer {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/timer.jpg');
+}
 
 
+foot {
+	text-align: left;
+	padding: 100px;
+}
 
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
 
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
 
-</html>
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
