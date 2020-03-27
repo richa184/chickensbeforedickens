@@ -84,7 +84,7 @@ h2 {
 
 
 #about {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me1.JPG');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me1.jpg');
 	
 }
 
@@ -93,7 +93,7 @@ h2 {
 }
 
 #movies {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/movies1.JPG');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/movies1.jpg');
 	
 }
 
