@@ -85,6 +85,7 @@ h2 {
 
 #about {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/about_me.JPG');
+	transform: rotate(-90deg);
 }
 
 #chicken {
@@ -93,6 +94,7 @@ h2 {
 
 #movies {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/movies.JPG');
+	transform: rotate(-90deg);
 }
 
 #music {
